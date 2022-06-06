@@ -1,0 +1,25 @@
+//Playgrounds
+
+//Learn to Code 1
+
+//Issuing commands
+
+/*
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+*/
+
+//Adding a New Command (lesson 2)
+
+/*
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+*/
+
+//
