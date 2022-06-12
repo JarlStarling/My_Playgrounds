@@ -22,4 +22,256 @@ moveForward()
 collectGem()
 */
 
+// Toggling a Switch
+
+/*
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+collectGem()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+*/
+
+// Portal Practice
+
+/*
+moveForward()
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+*/
+
+// Finding and Fixing Bugs
+
+/*
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+collectGem()
+moveForward()
+toggleSwitch()
+*/
+
+//Bug Squash Practice
+
+/*
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+*/
+
+// The Shortest Route
+
+/*
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+toggleSwitch()
+*/
+
+//Functions
+//Composite a New Behaviour
+
+
+/*
+func goGoGo() {
+    moveForward()
+    moveForward()
+    moveForward()
+}
+
+func turnRight() {
+    turnLeft()
+    turnLeft()
+    turnLeft()
+}
+
+goGoGo()
+turnRight()
+goGoGo()
+collectGem()
+*//
+
+// Creating a New Function
+
+/*
+func turnRight() {
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+
+//moveForward()
+//turnLeft()
+//moveForward()
+//turnRight()
+//moveForward()
+//turnRight()
+//moveForward()
+//turnRight()
+//moveForward()
+//turnLeft()
+//moveForward()
+//toggleSwitch()
+
+//***** Second Solution *****
+
+//func moveAndTurnRight() {
+//    moveForward()
+//    turnRight()
+//}
+
+//moveAndTurnRight()
+//moveAndTurnRight()
+//moveForward()
+//moveAndTurnRight()
+//moveForward()
+//moveForward()
+//moveForward()
+//moveAndTurnRight()
+//moveForward()
+//toggleSwitch()
+*/
+
+//Collect, Toggle, Repeat
+
+/*
+func moveAndCollectAndToggle() {
+	moveForward()
+	collectGem()
+	moveForward()
+	toggleSwitch()
+	moveForward()
+}
+
+moveAndCollectAndToggle()
+turnLeft()
+moveAndCollectAndToggle()
+moveForward()
+turnLeft()
+moveAndCollectAndToggle()
+turnLeft()
+moveAndCollectAndToggle()
+*/
+
+// Across the Board
+
+/*
+func collectAndMove() {
+	moveForward()
+	collectGem()
+}
+
+collectGem()
+collectAndMove()
+collectAndMove()
+turnRight()
+collectAndMove()
+collectAndMove()
+turnRight()
+collectAndMove()
+collectAndMove()
+turnRight()
+collectAndMove()
+turnRight()
+*/
+
+// Nesting Patterns
+
+/*
+fun turnAround() {
+	turnLeft()
+	turnLeft()
+}
+
+func solveStair() {
+	moveForward()
+    	collectGem()
+    	turnAround()
+    	moveForward()
+    	turnRight()
+}
+
+solveStair()
+solveStair()
+solveStair()
+solveStair()
+*/
+
 //
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
