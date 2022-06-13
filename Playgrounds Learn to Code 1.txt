@@ -225,10 +225,105 @@ solveStair()
 solveStair()
 */
 
-//
+//Slotted Stairways
 
-    
-    
+/*
+func collectGemTurnAround() {
+	func moveForwardX2(){
+        moveForward()
+        moveForward()
+    	}
+    	func turnAround() {
+        turnLeft()
+        turnLeft()
+    	}
+    	func moveForwardX4() {
+        moveForwardX2()
+        moveForwardX2()
+   	 }
+    	moveForwardX2()
+    	collectGem()
+    	turnAround()
+    	moveForwardX4()
+    	collectGem()
+    	turnAround()
+    	moveForwardX2()
+}
+
+func solveRow() {
+	collectGemTurnAround()
+    	turnRight()
+   	moveForward()
+    	turnLeft()
+	}
+
+solveRow()
+solveRow()
+solveRow()
+
+*/
+
+// Treasure Hunt
+
+/*
+func moveThenToggle() {
+    moveForward()
+    moveForward()
+    toggleSwitch()
+}
+
+func goReturn() {
+    turnLeft()
+    turnLeft()
+    moveForward()
+    moveForward()
+}
+
+moveThenToggle()
+goReturn()
+turnLeft()
+moveThenToggle()
+moveThenToggle()
+goReturn()
+moveForward()
+moveForward()
+turnLeft()
+moveThenToggle()
+goReturn()
+turnLeft()
+moveThenToggle()
+moveThenToggle()
+
+*/
+
+//Using Loops
+
+/*
+
+for i in 1 ... 5 {
+	moveForward()
+	moveForward()
+    	collectGem()
+    	moveForward()
+}
+
+*/
+
+//Looping All The Sides
+	
+
+/*
+
+for i in 1...4 {
+    moveForward()
+    collectGem()
+    for move in 1...3 {
+        moveForward()
+    }
+    turnRight()
+}
+
+*/
 
 
 
