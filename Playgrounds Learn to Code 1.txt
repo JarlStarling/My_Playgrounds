@@ -508,6 +508,34 @@ for i in 1 ... 16 {
 
 /*
 
+fun collectOrToggle() {
+	moveForward()
+    moveForward()
+    if isOnClosedSwitch {
+        toggleSwitch()
+    } else if isOnGem{
+        collectGem()
+    } else {
+        moveForward()
+    }
+collectOrToggle()
+collectOrToggle()
+turnLeft()
+moveForward()
+moveForward()
+turnLeft()
+collectOrToggle()
+collectOrToggle()
+turnRight()
+moveForward()
+turnRight()
+collectOrToggle()
+collectOrToggle()
+*/
+
+//Boxed In
+
+/*
 
 
 
