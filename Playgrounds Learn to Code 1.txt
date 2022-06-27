@@ -537,6 +537,102 @@ collectOrToggle()
 
 /*
 
+func check() {
+    if isOnGem {
+        collectGem()
+    } else if isOnClosedSwitch{
+        toggleSwitch()
+    } 
+    
+}
+
+func moveAndCheck () {
+    moveForward()
+    check()
+}
+
+func moveAndCheckAndTurn () {
+    moveAndCheck()
+    turnLeft()
+    check()
+}
+
+moveAndCheckAndTurn()
+for i in 0...3 {
+    moveAndCheckAndTurn()
+    moveAndCheck()
+}
+
+*/
+
+//Decision Tree
+
+/*
+func check() {
+    if isOnGem {
+        collectGem()
+    } else if isOnClosedSwitch{
+        toggleSwitch()
+    }
+}
+func moveX3() {
+    moveForward()
+    check()
+    turnRight()
+    for i in 0...2 {
+        moveForward()
+    }
+    turnLeft()
+    moveForward()
+    check()
+    turnLeft()
+    turnLeft()
+    moveForward()
+    turnRight()
+    for i in 0...2 {
+        moveForward()
+    }
+    turnRight()
+}
+func moveX1() {
+    moveForward()
+    check()
+    turnLeft()
+    moveForward()
+    check()
+    turnLeft()
+    turnLeft()
+    moveForward()
+    turnLeft()
+}
+moveX3()
+moveX1()
+moveForward()
+check()
+moveX3()
+moveX1()
+*/
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
