@@ -813,6 +813,31 @@ while isOnGem {
 
 */
 
+//Land of Bounty 
+
+/* 
+
+func moveCollect() {
+    while !isBlocked {
+        if isOnClosedSwitch {
+            toggleSwitch()
+        } else if isOnGem{
+            collectGem()
+        }
+        moveForward()
+    }
+    while isBlocked{
+        turnRight()
+        moveForward()
+        turnRight()
+    }
+}
+moveCollect()
+moveCollect()
+moveCollect()
+
+*/
+
 //
 
 
